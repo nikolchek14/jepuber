@@ -14,7 +14,7 @@ public class epuber extends PDFTextStripper{
     }
 
     public static void main(String[] args) {
-        File file = new File(epuber.class.getClassLoader().getResource("book_for_wine.pdf").getFile());
+        File file = new File(epuber.class.getClassLoader().getResource("zaboravenoto-lekarstvo.pdf").getFile());
         try {
             //PDDocument cosDoc = PDDocument.load(file);
             PDDocument document = PDDocument.load(file);
